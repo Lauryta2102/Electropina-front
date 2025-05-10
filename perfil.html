@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicaciones</title>
+</head>
+<body>
+    <nav>
+        <button onclick="location.href='perfil.html'">Inicio</button>
+        <button onclick="location.href='publicacion.html'">Crear</button>
+        <button onclick="location.href='perfil.html'">Perfil</button>
+        <button onclick="location.href='Login.html'">Cerrar Sesión</button>
+    </nav>
+
+    <h2>Publicaciones</h2>
+
+    <section id="publicaciones">
+        <article>
+            <h3>Lavadora Samsung</h3>
+            <p><strong>Marca:</strong> Samsung</p>
+            <p><strong>Modelo:</strong> EcoBubble 2023</p>
+            <p>Gran rendimiento y eficiencia energética. La recomiendo.</p>
+            <img src="lavadora.jpg" alt="Lavadora Samsung">
+
+            <section>
+                <h4>Comentarios:</h4>
+                <p><strong>Usuario1:</strong> ¡Yo también la tengo y es increíble!</p>
+                <p><strong>Usuario2:</strong> ¿Funciona bien con cargas grandes?</p>
+
+                <form action="procesar_comentario.php" method="POST">
+                    <input type="hidden" name="post_id" value="1">
+                    <textarea name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea><br>
+                    <button type="submit">Comentar</button>
+                </form>
+            </section>
+        </article>
+
+        <article>
+            <h3>Heladera LG</h3>
+            <p><strong>Marca:</strong> LG</p>
+            <p><strong>Modelo:</strong> SmartCool</p>
+            <p>Un excelente electrodoméstico con tecnología de ahorro energético.</p>
+            <img src="heladera.jpg" alt="Heladera LG">
+
+            <section>
+                <h4>Comentarios:</h4>
+                <p><strong>Usuario3:</strong> ¿Consume mucha energía?</p>
+
+                <form action="procesar_comentario.php" method="POST">
+                    <input type="hidden" name="post_id" value="2">
+                    <textarea name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea><br>
+                    <button type="submit">Comentar</button>
+                </form>
+            </section>
+        </article>
+    </section>
+</body>
+</html>
+
+
