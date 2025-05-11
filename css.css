@@ -1,0 +1,113 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a05d5de7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Contenedor del login */
+.login-container {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h1 {
+    font-size: 2em;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+/* Inputs del formulario */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botones */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Aplicación de los conceptos vistos */
+.hidden {
+    display: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+/* Posicionamiento */
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
