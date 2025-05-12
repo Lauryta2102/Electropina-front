@@ -50,7 +50,7 @@ button {
 #pagina-index {
     background-color: var(--color-terciario);
     color: var(--color-primario);
-    background-image: url("img/logo2.png"); /* Fondo */
+    background-image: url("../img/logo2.png"); /* Fondo */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
