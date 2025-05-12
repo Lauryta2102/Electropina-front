@@ -49,10 +49,21 @@ button {
 #pagina-index {
     background-color: var(--color-terciario);
     color: var(--color-primario);
+<<<<<<< HEAD
     background-image: url('../img/logo2.png'); /* Fondo */
+=======
+    background-image: url("img/logo2.png"); /* Fondo */
+>>>>>>> 2cb0db9ead65b0d314c2950fcf2842c275988672
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    #pagina-index {
+    background-image: url("img/logo2"); /* Ruta corregida */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 }
 
 #pagina-index h2 {
@@ -89,7 +100,7 @@ input {
 #pagina-registro {
     background-color: #0B7A75;
     color: white;
-     background-image: url("logo2.png"); /* Fondo */
+     background-image: url(""); /* Fondo */
 }
 
 #pagina-registro h2 {
