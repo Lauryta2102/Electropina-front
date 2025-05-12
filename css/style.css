@@ -46,20 +46,14 @@ button {
 /* --------------------------
    ESTILOS ESPECÍFICOS PARA INDEX.HTML
    -------------------------- */
-#pagina-index {
-    background-color: var(--color-terciario);
-    color: var(--color-primario);
-    background-image: url("img/logo2.png"); /* Fondo */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    #pagina-index {
-    background-image: url("img/logo2"); /* Ruta corregida */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
+#pagina-index {
+    background-image: url("../img/logo2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 }
 
 #pagina-index h2 {
@@ -82,6 +76,7 @@ button {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
     gap: 15px;
     margin-top: 30px; /* Espacio superior */
+    
 }
 input {
     width: 100%;
