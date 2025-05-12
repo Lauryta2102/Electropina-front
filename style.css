@@ -1,39 +1,103 @@
+/* --------------------------
+   VARIABLES GENERALES (Colores)
+   -------------------------- */
+:root {
+    --color-primario: #19535F;
+    --color-secundario: #0B7A75;
+    --color-terciario: #D7C9AA;
+    --color-acento: #7B2D26;
+}
 
+/* --------------------------
+   ESTILOS GENERALES (Para ambas páginas)
+   -------------------------- */
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--color-terciario, #D7C9AA); 
-    color: var(--color-primario, #19535F); 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    box-sizing: border-box;
-    background-image: url("logo2.png"); /* Ruta de la imagen */
-    background-size: cover; /* Hace que la imagen ocupe toda la pantalla */
-    background-position: center; /* Centra la imagen */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    height: 100vh; /* Hace que el fondo ocupe todo el viewport */
-
 }
+
+/* Logo */
 .logo {
-    width: 150px; /* Ajuste del tamaño */
-    height: auto; /* Mantener proporciones */
+    width: 150px;
+    height: auto;
     display: block;
     margin: 0 auto 15px; /* Centrado con espacio debajo */
 }
 
-
-h2 {
-    font-size: 28px;
+/* Estilos generales para botones */
+button {
+    flex: 1; 
+    padding: 12px 20px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 30px;
-    position: absolute;
-    top: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-form {
+/* --------------------------
+   ESTILOS ESPECÍFICOS PARA INDEX.HTML
+   -------------------------- */
+#pagina-index {
+    background-color: var(--color-terciario);
+    color: var(--color-primario);
+    background-image: url("logo2.png"); /* Fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pagina-index h2 {
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+}
+
+#pagina-index form {
+   background-color: #0B7A75;
+    padding: 25px;
+    border: 3px solid var(--color-acento);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+    gap: 15px;
+    margin-top: 30px; /* Espacio superior */
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--color-primario);
+    border-radius: 5px;
+}
+/* --------------------------
+   ESTILOS ESPECÍFICOS PARA REGISTRO.HTML
+   -------------------------- */
+#pagina-registro {
+    background-color: #0B7A75;
+    color: white;
+     background-image: url("logo2.png"); /* Fondo */
+}
+
+#pagina-registro h2 {
+    color: var(--color-acento);
+    text-align: center;
+}
+
+#pagina-registro form {
     background-color: #0B7A75;
     padding: 25px;
     border: 3px solid var(--color-acento);
@@ -47,56 +111,15 @@ form {
     margin-top: 30px; /* Espacio superior */
 }
 
-
-input {
+#pagina-registro input {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid var(--color-primario);
+    border: 2px solid var(--color-terciario);
     border-radius: 5px;
 }
 
 
-.button-container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    width: 350px;
-    padding: 20px;
-    background-color: var(--color-terciario); 
-    border: 3px solid var(--color-acento);
-    border-radius: 8px;
-}
 
-button {
-    flex: 1; 
-    padding: 12px 20px;
-    margin: 0 10px;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
-
-
-
-#pagina-registro h2 {
-    color: var(--color-acento);
-    text-align: center;
-}
-
-/* Centrar todo el contenido del registro */
-#pagina-registro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Centra verticalmente */
-    align-items: center; /* Centra horizontalmente */
-    height: 100vh; /* Ocupa toda la pantalla */
-    margin: 0;
-    padding: 0;
-}
 
 
 
