@@ -48,7 +48,9 @@ button {
    -------------------------- */
 
 #pagina-index {
-    background-image: url("../img/logo2.png");
+    background-color: var(--color-terciario);
+    color: var(--color-primario);
+    background-image: url("img/logo2.png"); /* Fondo */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,4 +121,3 @@ input {
     border: 2px solid var(--color-terciario);
     border-radius: 5px;
 }
-
