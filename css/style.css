@@ -93,7 +93,8 @@ input {
 #pagina-registro {
     background-color: #0B7A75;
     color: white;
-     background-image: url(""); /* Fondo */
+    background-image: url("../img/logo2.png"); /* Fondo */
+
 }
 
 #pagina-registro h2 {
