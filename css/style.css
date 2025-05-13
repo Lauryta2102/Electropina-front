@@ -1,12 +1,7 @@
 /* --------------------------
    VARIABLES GENERALES (Colores)
    -------------------------- */
-   :root {
-    --color-primario: #19535F;
-    --color-secundario: #0B7A75;
-    --color-terciario: #D7C9AA;
-    --color-acento: #7B2D26;
-}
+
 
 /* --------------------------
    ESTILOS GENERALES (Para ambas páginas)
@@ -48,8 +43,8 @@ button {
    -------------------------- */
 
 #pagina-index {
-    background-color: var(--color-terciario);
-    color: var(--color-primario);
+    background-color:  #D7C9AA;
+    color:  #D7C9AA;
     background-image: url("../img/logo2.png"); /* Fondo */
     background-size: cover;
     background-position: center;
@@ -67,15 +62,15 @@ button {
 }
 
 #pagina-index form {
-   background-color: #0B7A75;
+    background-color: #0B7A75;
     padding: 25px;
-    border: 3px solid var(--color-acento);
+    border: 3px solid #7B2D26;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 4px 4px 12px rgba(140, 67, 67, 0.2);
     gap: 15px;
     margin-top: 30px; /* Espacio superior */
     
@@ -84,7 +79,7 @@ input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid var(--color-primario);
+    border: 1px solid #000000;
     border-radius: 5px;
 }
 /* --------------------------
@@ -98,14 +93,14 @@ input {
 }
 
 #pagina-registro h2 {
-    color: var(--color-acento);
+    color:  #7B2D26;
     text-align: center;
 }
 
 #pagina-registro form {
     background-color: #0B7A75;
     padding: 25px;
-    border: 3px solid var(--color-acento);
+    border: 3px solid  #7B2D26;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -119,7 +114,7 @@ input {
 #pagina-registro input {
     width: 100%;
     padding: 10px;
-    border: 2px solid var(--color-terciario);
+    border: 2px solid  #D7C9AA;
     border-radius: 5px;
 }
 
@@ -128,8 +123,8 @@ input {
    -------------------------- */
 
 main {
-    background-color: var(--color-terciario);
-    color: var(--color-primario);
+    background-color:  #D7C9AA;
+    color:  #19535F;
     background-image: url("../img/logo2.png"); /* Fondo */
     background-size: cover;
     background-position: center;
@@ -141,7 +136,7 @@ main {
 #quienes-somos {
     background-color: #0B7A75;
     padding: 25px;
-    border: 3px solid var(--color-acento);
+    border: 3px solid #7B2D26;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
