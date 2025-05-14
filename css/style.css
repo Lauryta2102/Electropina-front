@@ -118,16 +118,17 @@ input {
    ESTILOS ESPECÍFICOS PARA LA PRESENTACION
    -------------------------- */
 
-main {
+
+#presentacion {
     background-color:  #D7C9AA;
-    color:  #19535F;
+    color:  #D7C9AA;
     background-image: url("../img/logo2.png"); /* Fondo */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-} 
+}
 
 #quienes-somos {
     background-color: #0B7A75;
