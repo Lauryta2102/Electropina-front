@@ -10,25 +10,24 @@
 
     <h2>Completa para crear un usuario</h2>
 
-    <form action="procesar_registro.php" method="POST" enctype="multipart/form-data">
-        <label for="nombre_completo">Nombre Completo:</label>
-        <input type="text" id="nombre_completo" name="nombre_completo" required>
+    <form id="registroForm">
+    <label for="nombre_completo">Nombre Completo:</label>
+    <input type="text" id="nombre_completo" name="nombre_completo" required>
 
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required>
+    <label for="email">Correo Electrónico:</label>
+    <input type="email" id="email" name="email" required>
 
-        <label for="nombre_usuario">Nombre de Usuario:</label>
-        <input type="text" id="nombre_usuario" name="nombre_usuario" required>
+    <label for="nombre_usuario">Nombre de Usuario:</label>
+    <input type="text" id="nombre_usuario" name="nombre_usuario" required>
 
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" required>
 
-        <label for="foto_perfil">Foto de Perfil:</label>
-        <input type="file" id="foto_perfil" name="foto_perfil" accept="image/*">
+    <label for="foto_perfil">Foto de Perfil:</label>
+    <input type="file" id="foto_perfil" name="foto_perfil" accept="image/*">
 
-        <button type="submit">Registrarse</button>
-    </form>
-
+    <button type="submit">Registrarse</button>
+</form>
 </body>
 </html>
 

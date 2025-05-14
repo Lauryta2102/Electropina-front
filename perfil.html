@@ -7,10 +7,10 @@
 </head>
 <body>
     <nav>
-        <button onclick="location.href='perfil.html'">Inicio</button>
-        <button onclick="location.href='publicacion.html'">Crear</button>
-        <button onclick="location.href='perfil.html'">Perfil</button>
-        <button onclick="location.href='Login.html'">Cerrar Sesión</button>
+        <button id="inicio">Inicio</button>
+        <button id="crear">Crear</button>
+        <button id="perfil">Perfil</button>
+        <button id="cerrar">Cerrar Sesión</button>
     </nav>
 
     <h2>Publicaciones</h2>
@@ -27,12 +27,13 @@
                 <h4>Comentarios:</h4>
                 <p><strong>Usuario1:</strong> ¡Yo también la tengo y es increíble!</p>
                 <p><strong>Usuario2:</strong> ¿Funciona bien con cargas grandes?</p>
-
-                <form action="procesar_comentario.php" method="POST">
+                <form id="comentarioForm">
                     <input type="hidden" name="post_id" value="1">
-                    <textarea name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea><br>
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea>
                     <button type="submit">Comentar</button>
                 </form>
+                
             </section>
         </article>
 
@@ -46,12 +47,15 @@
             <section>
                 <h4>Comentarios:</h4>
                 <p><strong>Usuario3:</strong> ¿Consume mucha energía?</p>
-
-                <form action="procesar_comentario.php" method="POST">
+                <form id="comentarioForm">
                     <input type="hidden" name="post_id" value="2">
-                    <textarea name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea><br>
+    
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea>
+    
                     <button type="submit">Comentar</button>
-                </form>
+</form>
+                
             </section>
         </article>
     </section>
