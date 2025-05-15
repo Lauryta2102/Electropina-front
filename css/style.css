@@ -167,6 +167,6 @@ input {
    -------------------------- */
 
 #publicaciones {
-    
+    overflow-y: scroll;
     
 }
