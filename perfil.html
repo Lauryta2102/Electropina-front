@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Publicaciones</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="pagina-perfil">
+
+    <!-- Navegación -->
     <nav>
         <button id="inicio">Inicio</button>
         <button id="crear">Crear</button>
@@ -14,55 +16,68 @@
         <button id="cerrar">Cerrar Sesión</button>
     </nav>
 
-    <h2>Publicaciones</h2>
-
-    <section id="publicaciones">
-        <article>
-            <img src="img/LAV6541SSG.jpg" alt="Lavadora Samsung" class = "logo" >
-            <h3>Lavadora Samsung</h3>
-            <p><strong>Marca:</strong> Samsung</p>
-            <p><strong>Modelo:</strong> EcoBubble 2023</p>
-            <p>Gran rendimiento y eficiencia energética. La recomiendo.</p>
+    <!-- Sección de Publicaciones -->
+    <main>
+        <h2>Publicaciones</h2>
+        <section id="publicaciones">
             
+            <!-- Publicación 1 -->
+            <article class="publicacion">
+                <header>
+                    <img src="img/LAV6541SSG.jpg" alt="Lavadora Samsung" class="logo">
+                    <h3>Lavadora Samsung</h3>
+                </header>
+                <section>
+                    <p><strong>Marca:</strong> Samsung</p>
+                    <p><strong>Modelo:</strong> EcoBubble 2023</p>
+                    <p>Gran rendimiento y eficiencia energética. La recomiendo.</p>
+                </section>
 
-            <section>
-                <h4>Comentarios:</h4>
-                <p><strong>Usuario1:</strong> ¡Yo también la tengo y es increíble!</p>
-                <p><strong>Usuario2:</strong> ¿Funciona bien con cargas grandes?</p>
-                <form id="comentarioForm">
-                    <input type="hidden" name="post_id" value="1">
-                    <label for="comentario">Comentario:</label>
-                    <textarea id="comentario" name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea>
-                    <button type="submit">Comentar</button>
-                </form>
-                
-            </section>
-        </article>
+                <!-- Sección de comentarios -->
+                <section class="comentarios">
+                    <h4>Comentarios:</h4>
+                    <p><strong>Usuario1:</strong> ¡Yo también la tengo y es increíble!</p>
+                    <p><strong>Usuario2:</strong> ¿Funciona bien con cargas grandes?</p>
 
-        <article>
-            <img src="img/MKT0314AGE-1.jpg" alt="Heladera LG" class="logo">
-            <h3>Heladera LG</h3>
-            <p><strong>Marca:</strong> LG</p>
-            <p><strong>Modelo:</strong> SmartCool</p>
-            <p>Un excelente electrodoméstico con tecnología de ahorro energético.</p>
-            
+                    <form id="comentarioForm1">
+                        <input type="hidden" name="post_id" value="1">
+                        <label for="comentario1">Comentario:</label>
+                        <textarea id="comentario1" name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea>
+                        <button type="submit">Comentar</button>
+                    </form>
+                </section>
+            </article>
 
-            <section>
-                <h4>Comentarios:</h4>
-                <p><strong>Usuario3:</strong> ¿Consume mucha energía?</p>
-                <form id="comentarioForm">
-                    <input type="hidden" name="post_id" value="2">
-    
-                    <label for="comentario">Comentario:</label>
-                    <textarea id="comentario" name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea>
-    
-                    <button type="submit">Comentar</button>
-</form>
-                
-            </section>
-        </article>
-    </section>
+            <!-- Publicación 2 -->
+            <article class="publicacion">
+                <header>
+                    <img src="img/MKT0314AGE-1.jpg" alt="Heladera LG" class="logo">
+                    <h3>Heladera LG</h3>
+                </header>
+                <section>
+                    <p><strong>Marca:</strong> LG</p>
+                    <p><strong>Modelo:</strong> SmartCool</p>
+                    <p>Un excelente electrodoméstico con tecnología de ahorro energético.</p>
+                </section>
+
+                <!-- Sección de comentarios -->
+                <section class="comentarios">
+                    <h4>Comentarios:</h4>
+                    <p><strong>Usuario3:</strong> ¿Consume mucha energía?</p>
+
+                    <form id="comentarioForm2">
+                        <input type="hidden" name="post_id" value="2">
+                        <label for="comentario2">Comentario:</label>
+                        <textarea id="comentario2" name="comentario" rows="2" cols="50" placeholder="Escribe tu comentario..." required></textarea>
+                        <button type="submit">Comentar</button>
+                    </form>
+                </section>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
+
+
 
 
