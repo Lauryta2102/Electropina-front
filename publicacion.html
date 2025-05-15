@@ -1,37 +1,63 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Nuevo Post</title>
-</head>
-<body id = publicacion-html>
-    <nav>
-        <button id="inicio">Inicio</button>
-        <button id="crear">Crear</button>
-        <button id="perfil">Perfil</button>
-        <button id="cerrar">Cerrar Sesión</button>
-    </nav>
+    </head>
+    <body id = publicacion-html>
+        <nav>
+            <button id="inicio">Inicio</button>
+            <button id="crear">Crear</button>
+            <button id="perfil">Perfil</button>
+            <button id="cerrar">Cerrar Sesión</button>
+        </nav>
     
-    <h2>Crear Nuevo Post</h2>
-    <form id="postForm">
-    <label for="nombre_post">Nombre del Post:</label>
-    <input type="text" id="nombre_post" name="nombre_post" required>
+        <form id="postForm">
+            <label for="name_post">Mi Electrodoméstico</label>
+            <select name="elecrodomestico" id="name_post" type="text" required>
+                <option value="01">Lavarropas</option>
+                <option value="02">Heladera</option>
+                <option value="03">Licuadora</option>
+                <option value="04">Microondas</option>
+                <option value="05">cafetera</option>
+                <option value="06">Televisor</option>
+                <option value="07">calefactor</option>
+                <option value="08">Ventilador</option>
+                <option value="09">otro</option>
+            </select>
 
-    <label for="marca">Marca:</label>
-    <input type="text" id="marca" name="marca" required>
+            <label for="marca">Su Marca:</label>
+            <select name="elecrodomestico" id="name_post" type="text" required>
+                <option value="01">whilpoor</option>
+                <option value="02">Eslabon de lujo</option>
+                <option value="03">Philip</option>
+                <option value="04">Patric</option>
+                <option value="05">Sansung</option>
+                <option value="06">Atma</option>
+                <option value="07">LG</option>
+                <option value="08">otro mas</option>
+                <option value="09">otro</option>
+            </select>
 
-    <label for="modelo">Modelo:</label>
-    <input type="text" id="modelo" name="modelo" required>
+            <label for="modelo">Modelo:</label>
+            <input type="text" id="modelo" name="modelo" required>
 
-    <label for="comentario">Comentario:</label>
-    <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Agrega un comentario aquí"></textarea>
+            <label for="tecnology">¿Es Inverter?:</label>
+            <select name="tecnology" id="masinfo" type="text" required>
+                <option value="01">si</option>
+                <option value="02">No</option>
+                <option value="03">No lo sé</option>
 
-    <label for="foto">Subir Foto del Electrodoméstico:</label>
-    <input type="file" id="foto" name="foto" accept="image/*">
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Agrega un comentario aquí"></textarea>
 
-    <button type="submit">Publicar</button>
-</body>
+            <label for="foto">Subir Foto del Electrodoméstico:</label>
+            <input type="file" id="foto" name="foto" accept="image/*">
+
+            <button type="submit">Publicar</button>
+        </form>
+    </body>
 </html>
 
