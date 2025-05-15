@@ -166,7 +166,18 @@ input {
    ESTILOS ESPECÍFICOS PARA LA PERFIL
    -------------------------- */
 
+#pagina-perfil {
+    background-image: url("../img/logo2.png"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+
 #publicaciones {
-    overflow-y: scroll;
-    
+    max-height: 500px;
+    overflow-y: auto; 
+    padding: 10px;
+    background: none !important; 
 }
