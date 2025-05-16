@@ -25,14 +25,12 @@ body {
 
 /* Estilos generales para botones */
 button {
-    flex: 1; 
     padding: 12px 20px;
     font-size: 18px;
     font-weight: bold;
-    border: none;
     border-radius: 6px;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
+  
 }
 
 /* --------------------------
@@ -174,7 +172,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
+    width: 600px;
     gap: 15px;
     overflow-y: auto;
     max-height: 500px;
