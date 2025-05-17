@@ -211,9 +211,6 @@ h1 {
     gap: 20px;
     width: 100%;
 }
-
-
-
 .modify-user{
     background-image: url("../img/logo2.png"); /* Fondo */
 }
@@ -221,4 +218,29 @@ h1 {
 .modify-user .form .form-article .button {
     background-color: #0B7A75;
     color: white;
+}
+
+/* compartir experiencia */
+
+.publicacion-html {
+    background-image: url("../img/logo2.png"); /* Fondo */
+}
+
+.form-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-experience {
+    background-color: #0B7A75;
+    color: white;
+}
+
+.form-experience .electrodomestic {
+    border: solid 1px black;
+    width: 450px;
+    background-color: #0B7A75;
 }
