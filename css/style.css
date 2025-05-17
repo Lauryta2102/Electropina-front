@@ -205,8 +205,6 @@ h1 {
     color: #D7C9AA;
     text-align: center;
     font-weight: 700;
-    
-
 }
 
 #title {
@@ -275,3 +273,8 @@ h1 {
     width: 450px;
     background-color: #0B7A75;
 }
+.experience{
+    width: 50%;
+    height: 90%;
+}
+
