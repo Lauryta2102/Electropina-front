@@ -110,7 +110,7 @@ input {
    -------------------------- */
 
 
-#presentacion {
+#presentation {
     background-color:  #D7C9AA;
     color:  #D7C9AA;
     background-image: url("../img/logo2.png"); /* Fondo */
@@ -119,10 +119,10 @@ input {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif; /*estilo de letra*/
 }
 
-#quienes-somos {
+#who-we-are {
     background-color: #0B7A75;
     padding: 25px;
     border: 3px solid #7B2D26;
@@ -136,37 +136,36 @@ input {
     margin-top: 30px;
 }
 
-#quienes-somos .logo {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-#quienes-somos .logo img {
-    width: 108px;
-    height: auto;
-    margin-left: -65px; /* Mueve la imagen 65px más a la izquierda */
-}
-
-#quienes-somos .logo h1 {
-    font-size: 20px;
-    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700; /*controla lo negrita o el grosor de un texto*/
-}
-
-#quienes-somos article {
+#who-we-are .logo {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-#quienes-somos img {
+#who-we-are .logo img {
+    width: 108px;
+    height: auto;
+    margin-left: -65px; /* Mueve la imagen 65px más a la izquierda */
+}
+
+#who-we-are .logo h1 {
+    font-size: 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 850; /*controla lo negrita o el grosor de un texto*/
+}
+
+#who-we-are article {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#who-we-are img {
     width: 90px;
     height: auto;
 }
 
-#quienes-somos p {
+#who-we-are p {
     font-size: 100%;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
