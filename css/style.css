@@ -204,6 +204,8 @@ input {
 h1 {
     color: #D7C9AA;
     text-align: center;
+    font-weight: 700;
+    
 
 }
 
@@ -223,6 +225,8 @@ h1 {
     border: solid 1px black;
     width: 450px;
     background-color: #0B7A75;
+    padding: 5px;
+    border: 3px solid #7B2D26;
 }
 .modify-user .form .form-article {
     display: flex;
@@ -234,6 +238,7 @@ h1 {
 .modify-user{
     background-image: url("../img/logo2.png"); /* Fondo */
     font-family: 'Nunito', sans-serif; /*estilo de letra*/
+    font-weight: 700;
 }
 
 .modify-user .form .form-article .button {
@@ -246,7 +251,9 @@ h1 {
 .publicacion-html {
     background-image: url("../img/logo2.png"); /* Fondo */
     font-family: 'Nunito', sans-serif; /*estilo de letra*/
+    font-weight: 700;
 }
+
 
 .form-experience {
     display: flex;
@@ -254,6 +261,8 @@ h1 {
     align-items: center;
     gap: 20px;
     width: 100%;
+    padding: 5px;
+    border: 3px solid #7B2D26;
 }
 
 .form-experience {
