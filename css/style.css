@@ -63,7 +63,7 @@ button {
     
 }
 input {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #000000;
@@ -92,7 +92,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
+    width: 450px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
     gap: 15px;
     margin-top: 30px; /* Espacio superior */
@@ -199,4 +199,69 @@ input {
     max-height: 500px;
     overflow-y: auto;
 
+}
+/*modifity-user*/
+
+h1 {
+    color: #D7C9AA;
+    text-align: center;
+
+}
+
+#title {
+    color: #D7C9AA;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.change {
+    color: #0B7A75;
+}
+
+.modify-user .form {
+    border: solid 1px black;
+    width: 450px;
+    background-color: #0B7A75;
+}
+.modify-user .form .form-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+.modify-user{
+    background-image: url("../img/logo2.png"); /* Fondo */
+}
+
+.modify-user .form .form-article .button {
+    background-color: #0B7A75;
+    color: white;
+}
+
+/* compartir experiencia */
+
+.publicacion-html {
+    background-image: url("../img/logo2.png"); /* Fondo */
+}
+
+.form-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-experience {
+    background-color: #0B7A75;
+    color: white;
+}
+
+.form-experience .electrodomestic {
+    border: solid 1px black;
+    width: 450px;
+    background-color: #0B7A75;
 }
