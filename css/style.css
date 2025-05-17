@@ -119,6 +119,7 @@ input {
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+    font-family: 'Nunito', sans-serif;
 }
 
 #quienes-somos {
@@ -135,6 +136,25 @@ input {
     margin-top: 30px;
 }
 
+#quienes-somos .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#quienes-somos .logo img {
+    width: 108px;
+    height: auto;
+    margin-left: -65px; /* Mueve la imagen 65px más a la izquierda */
+}
+
+#quienes-somos .logo h1 {
+    font-size: 20px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700; /*controla lo negrita o el grosor de un texto*/
+}
+
 #quienes-somos article {
     display: flex;
     align-items: center;
@@ -148,7 +168,8 @@ input {
 
 #quienes-somos p {
     font-size: 100%;
-    
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
 }
 
 
