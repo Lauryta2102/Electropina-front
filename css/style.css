@@ -122,7 +122,7 @@ input {
     font-family: 'Nunito', sans-serif; /*estilo de letra*/
 }
 
-#who-we-are {
+#ElectrOpina {
     background-color: #0B7A75;
     padding: 25px;
     border: 3px solid #7B2D26;
@@ -136,36 +136,36 @@ input {
     margin-top: 30px;
 }
 
-#who-we-are .logo {
+#ElectrOpina .logo {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-#who-we-are .logo img {
+#ElectrOpina .logo img {
     width: 108px;
     height: auto;
     margin-left: -65px; /* Mueve la imagen 65px más a la izquierda */
 }
 
-#who-we-are .logo h1 {
+#ElectrOpina .logo h1 {
     font-size: 25px;
     font-family: 'Nunito', sans-serif;
     font-weight: 850; /*controla lo negrita o el grosor de un texto*/
 }
 
-#who-we-are article {
+#ElectrOpina article {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-#who-we-are img {
+#ElectrOpina img {
     width: 90px;
     height: auto;
 }
 
-#who-we-are p {
+#ElectrOpina p {
     font-size: 100%;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
