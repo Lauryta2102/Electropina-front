@@ -1,9 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /* --------------------------
    ESTILOS GENERALES (Para ambas páginas)
    -------------------------- */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -75,14 +79,9 @@ input {
 #pagina-registro {
     background-color: #0B7A75;
     color: white;
-    background-image: url("../img/logo2.png"); /* Fondo */
-
+    background-image: url("../img/logo2.png"); /* Fondo */ 
 }
 
-#pagina-registro h2 {
-    color:  #7B2D26;
-    text-align: center;
-}
 
 #pagina-registro form {
     background-color: #0B7A75;
@@ -94,10 +93,15 @@ input {
     align-items: center;
     width: 450px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
-    gap: 15px;
-    margin-top: 30px; /* Espacio superior */
+    gap: 10px;
 }
 
+form h2 {
+    font-family: 'Nunito', sans-serif;
+    color:  #D7C9AA;
+    font-size: 1,5em;
+    text-align: center;
+}
 #pagina-registro input {
     width: 100%;
     padding: 10px;
@@ -149,7 +153,7 @@ input {
 }
 
 #ElectrOpina .logo h1 {
-    font-size: 25px;
+    font-size: 2em;
     font-family: 'Nunito', sans-serif;
     font-weight: 850; /*controla lo negrita o el grosor de un texto*/
 }
@@ -166,7 +170,7 @@ input {
 }
 
 #ElectrOpina p {
-    font-size: 100%;
+    font-size: 0,8em;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
 }
@@ -197,17 +201,50 @@ input {
     overflow-y: auto;
     max-height: 500px;
     overflow-y: auto;
-
 }
+
+nav ul {
+    display: grid; /*te permite organizar elementos en columnas y filas.*/
+    grid-template-columns: repeat(4, auto); /*Crea 4 columnas automáticas (una para cada botón), todas del tamaño necesario para su contenido. */
+    gap: 5px; /*agrega espacio entre cada columna (entre botones)*/
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
+    padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px; /*bordes redondeados*/
+    cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
+    text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
+    background-color: #7B2D26;
+    border:2px solid black; 
+    color: #F0F3F5;
+    transition: background-color 0.3s ease; /*agrega una animación al cambiar el color de fondo*/
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: #5C1E1A; /* color más oscuro cuando pasas el mouse */
+}
+  
 /*modifity-user*/
 
 h1 {
+    font-size: 2em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 850;
     color: #D7C9AA;
     text-align: center;
     font-weight: 700;
 }
 
 h2 {
+    font-size: 1,5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 850;
     color:#D7C9AA;
     text-align: center;
     font-weight: 700;
