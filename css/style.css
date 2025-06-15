@@ -142,6 +142,10 @@ form h2 {
     margin-top: 30px;
 }
 
+@media screen and (min-width: 320px ){
+    
+}
+
 @keyframes entradaElectrOpina { /*animacion*/
     0% {
       opacity: 0;
@@ -262,7 +266,7 @@ nav ul li a {
     background-color: #7B2D26;
     border:2px solid black; 
     color: #F0F3F5;
-    transition: background-color 0.3s ease; /*agrega una animación al cambiar el color de fondo*/
+    transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
     text-align: center;
 }
 nav ul li a:hover {
