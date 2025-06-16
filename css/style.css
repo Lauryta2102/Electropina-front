@@ -47,11 +47,15 @@ button {
     background-color:  #D7C9AA;
     color:  #D7C9AA;
     background-image: url("../img/logo2.png"); /* Fondo */
+<<<<<<< HEAD
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
+=======
+    
+>>>>>>> gonzalo-dev
 }
 
 #pagina-index form {
@@ -142,10 +146,13 @@ form h2 {
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 320px ){
     
 }
 
+=======
+>>>>>>> gonzalo-dev
 @keyframes entradaElectrOpina { /*animacion*/
     0% {
       opacity: 0;
@@ -266,7 +273,11 @@ nav ul li a {
     background-color: #7B2D26;
     border:2px solid black; 
     color: #F0F3F5;
+<<<<<<< HEAD
     transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
+=======
+    transition: background-color 0.3s ease; /*agrega una animación al cambiar el color de fondo*/
+>>>>>>> gonzalo-dev
     text-align: center;
 }
 nav ul li a:hover {
