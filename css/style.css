@@ -119,8 +119,6 @@ form h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
     font-family: 'Nunito', sans-serif; /*estilo de letra*/
 }
 
@@ -137,6 +135,7 @@ form h2 {
     gap: 15px;
     margin-top: 30px;
 }
+
 
 @keyframes entradaElectrOpina { /*animacion*/
     0% {
@@ -356,3 +355,58 @@ h2 {
     height: 90%;
 }
 
+/* --------------------------
+   MEDIA QUERY para dispositivos de hasta 320px
+   -------------------------- */
+@media (max-width: 320px) {
+  body {
+    padding: 10px;
+    height: auto;
+  }
+
+  #ElectrOpina {
+    width: 100%;
+    padding: 15px;
+    gap: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+
+  #ElectrOpina .logo {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #ElectrOpina .logo img {
+    margin-left: 0;
+    width: 80px;
+  }
+
+  #ElectrOpina .logo h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  #ElectrOpina article {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  #ElectrOpina img {
+    width: 60px;
+  }
+
+  #ElectrOpina p {
+    font-size: 0.9em;
+    padding: 0 10px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
