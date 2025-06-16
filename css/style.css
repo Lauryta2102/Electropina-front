@@ -68,11 +68,7 @@ button {
     background-color:  #D7C9AA;
     color: white;
     background-image: url("../img/logo2.png"); /* Fondo */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
+    
 }
 
 #pagina-index form {
@@ -155,10 +151,6 @@ input {
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
     gap: 15px;
     margin-top: 30px;
-}
-
-@media screen and (min-width: 320px ){
-    
 }
 
 @keyframes entradaElectrOpina { /*animacion*/
@@ -270,6 +262,7 @@ nav ul li a {
     background-color: #7B2D26;
     border:2px solid black; 
     color: #F0F3F5;
+    transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
     text-align: center;
 }
 nav ul li a:hover {
@@ -350,3 +343,55 @@ nav ul li a:hover {
     height: 90%;
 }
 
+@media (max-width: 320px) {
+  body {
+    padding: 10px;
+    height: auto;
+  }
+
+  #ElectrOpina {
+    width: 100%;
+    padding: 15px;
+    gap: 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
+
+  #ElectrOpina .logo {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #ElectrOpina .logo img {
+    margin-left: 0;
+    width: 80px;
+  }
+
+  #ElectrOpina .logo h1 {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  #ElectrOpina article {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+
+  #ElectrOpina img {
+    width: 60px;
+  }
+
+  #ElectrOpina p {
+    font-size: 0.9em;
+    padding: 0 10px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
