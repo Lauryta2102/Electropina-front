@@ -89,7 +89,6 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
     gap: 10px;
 }
@@ -537,10 +536,10 @@ h2 {
   
 }
 @media screen and (max-width: 360px) {
+
   body.publicacion-html {
     padding: 1rem;
     font-size: 14px;
-    background-color: #f4f4f4;
   }
 
   nav ul {
@@ -592,3 +591,75 @@ h2 {
     font-size: 1rem;
   }
 
+@media screen and (max-width: 360px) {
+  #pagina-registro {
+    padding: 1rem;
+    background-color: #f9f9f9; /* color opcional */
+    font-size: 14px;
+  }
+
+  #registroForm {
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  #registroForm h2 {
+    font-size: flex;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  #registroForm label {
+    font-size: flex;
+    margin-top: flex;
+  }
+
+  #registroForm input,
+  #registroForm button {
+    width: 100%;
+    font-size: 0.95rem;
+    margin-bottom: 0.8rem;
+  }
+
+  #registroForm button {
+    padding: 1;
+    border: none;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 480px) {
+  form#registroForm {
+  max-width: 360px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+  
+  #pagina-registro {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+
+
+ 
+  form#registroForm label {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+  }
+
+  form#registroForm input,
+  form#registroForm button {
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+
+  }
+
+  form#registroForm button {
+    font-weight: 600;
+    border: none;
+  }
+}
