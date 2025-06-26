@@ -319,6 +319,10 @@ h2 {
     background-color: #0B7A75;
     color: white;
 }
+.form_article {
+   display: flex;
+   flex-direction: column;
+}
 
 /* compartir experiencia */
 
