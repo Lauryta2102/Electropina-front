@@ -1,330 +1,408 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+/*estilo general para el h1, h2 y p*/
+h1 {
+  font-size: 2em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 850;
+  color: #D7C9AA;
+  text-align: center;
+  font-weight: 700; /*controla lo negrita o el grosor de un texto*/
 }
 
-/* --------------------------
-   ESTILOS GENERALES (Para ambas páginas)
-   -------------------------- */
-body {
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+
+h2 {
+  font-size: 1,5em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 850;
+  color:#D7C9AA;
+  text-align: center;
+  font-weight: 700;
 }
+
+
+p {
+  font-size: 0,8em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 500;
+}
+
+
+/* --------------------------
+ ESTILOS GENERALES (Para ambas páginas)
+ -------------------------- */
+body {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 
 /* Logo */
 .logo {
-    width: 150px;
-    height: auto;
-    display: block;
-    margin: 0 auto 15px; 
-    animation: entradaElectrOpina 1.1s ease-out forwards;
-    transform-origin: center;
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+  animation: entradaElectrOpina 1.1s ease-out forwards;
+  transform-origin: center;
 }
+
+
 
 
 /* Estilos generales para botones */
 button {
-    padding: 12px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
-  
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+
+
 }
 
+
 /* --------------------------
-   ESTILOS ESPECÍFICOS PARA INDEX.HTML
-   -------------------------- */
+ ESTILOS ESPECÍFICOS PARA INDEX.HTML
+ -------------------------- */
+
 
 #pagina-index {
-    background-color:  #D7C9AA;
-    color:  #D7C9AA;
-    background-image: url("../img/logo2.png"); /* Fondo */
-    
+  background-color:  #D7C9AA;
+  color: white;
+  background-image: url("../img/logo2.png"); /* Fondo */
+ 
 }
+
 
 #pagina-index form {
-    background-color: #0B7A75;
-    padding: 25px;
-    border: 3px solid #7B2D26;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 350px;
-    box-shadow: 4px 4px 12px rgba(140, 67, 67, 0.2);
-    gap: 15px;
-    margin-top: 30px; /* Espacio superior */
-    
+  background-color: #0B7A75;
+  padding: 25px;
+  border: 3px solid #7B2D26;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  box-shadow: 4px 4px 12px rgba(140, 67, 67, 0.2);
+  gap: 15px;
+  margin-top: 30px; /* Espacio superior */
+ 
 }
 input {
-
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #000000;
-    border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #000000;
+  border-radius: 5px;
 }
 /* --------------------------
-   ESTILOS ESPECÍFICOS PARA REGISTRO.HTML
-   -------------------------- */
+ ESTILOS ESPECÍFICOS PARA REGISTRO.HTML
+ -------------------------- */
 #pagina-registro {
-    background-color: #0B7A75;
-    color: white;
-    background-image: url("../img/logo2.png"); /* Fondo */ 
+  background-color: #0B7A75;
+  color: white;
+  background-image: url("../img/logo2.png"); /* Fondo */
 }
+
+
 
 
 #pagina-registro form {
-    background-color: #0B7A75;
-    padding: 25px;
-    border: 3px solid  #7B2D26;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
-    gap: 10px;
+  background-color: #0B7A75;
+  padding: 25px;
+  border: 3px solid  #7B2D26;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+  gap: 10px;
 }
 
-form h2 {
-    font-family: 'Nunito', sans-serif;
-    color:  #D7C9AA;
-    font-size: 1,5em;
-    text-align: center;
-}
+
 #pagina-registro input {
-    width: 100%;
-    padding: 10px;
-    border: 2px solid  #D7C9AA;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid  #D7C9AA;
+  border-radius: 5px;
 }
+
 
 /* --------------------------
-   ESTILOS ESPECÍFICOS PARA LA PRESENTACION
-   -------------------------- */
+ ESTILOS ESPECÍFICOS PARA LA PRESENTACION
+ -------------------------- */
+
+
 
 
 #presentation {
-    background-color:  #D7C9AA;
-    color:  #D7C9AA;
-    background-image: url("../img/logo2.png"); /* Fondo */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: 'Nunito', sans-serif; /*estilo de letra*/
+  background-color:  #D7C9AA;
+  color:  #D7C9AA;
+  background-image: url("../img/logo2.png"); /* Fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Nunito', sans-serif; /*estilo de letra*/
 }
 
+
 #ElectrOpina {
-    background-color: #0B7A75;
-    padding: 25px;
-    border: 3px solid #7B2D26;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 350px;
-    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
-    gap: 15px;
-    margin-top: 30px;
+  background-color: #0B7A75;
+  padding: 25px;
+  border: 3px solid #7B2D26;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+  gap: 15px;
+  margin-top: 30px;
 }
 
 
 @keyframes entradaElectrOpina { /*animacion*/
-    0% {
-      opacity: 0;
-      transform: scale(0.5) rotate(-10deg);
-    }
-    60% {
-      opacity: 1;
-      transform: scale(1.1) rotate(5deg);
-    }
-    100% {
-      transform: scale(1) rotate(0deg);
-    }
+  0% {
+    opacity: 0; /*el elemento está totalmente invisible*/
+    transform: scale(0.5) rotate(-10deg); /*se reduce en tamaño y rota a la izquierda*/
+  }
+  60% {
+    opacity: 1; /*se vuelve visible*/
+    transform: scale(1.1) rotate(5deg); /*se expande un poco más del tamaño inicial y rota a la derecha */
+  }
+  100% {
+    transform: scale(1) rotate(0deg); /*vuelve a su tamaño normal y no rota vuelve a su posicion original*/
+  }
 }
+
 
 #ElectrOpina .logo {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
+
 
 #ElectrOpina .logo img {
-    width: 108px;
-    height: auto;
-    
-    margin-left: -65px; /* Mueve la imagen 65px más a la izquierda */
-    animation: entradaElectrOpina 1.1s ease-out forwards;
-    transform-origin: center;
+  width: 108px;
+  height: auto;
+  margin-left: -65px; /* Mueve la imagen 65px más a la izquierda */
+  animation: entradaElectrOpina 1.1s ease-out forwards;
 }
+
 
 @keyframes textoSuave { /*animacion para el h1*/
-    from {
-      opacity: 0;
-      transform: translateY(10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  0% {
+    opacity: 0; /*al inicio el texto empieza invisible*/
+    transform: translateY(10px); /*lo mueve hacia abajo*/
+  }
+  100% {
+    opacity: 1; /*hace que aparezca gradualmente*/
+    transform: translateY(0); /*devuelve el texto a su posición original*/
+  }
 }
+
 
 #ElectrOpina .logo h1 {
-    font-size: 2em;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 850; /*controla lo negrita o el grosor de un texto*/
-    animation: textoSuave 1s ease-in 0.7s forwards;
-    opacity: 0;
+  animation: textoSuave 1s ease-in 0.2s forwards; /*la animacion dura 1 seg, empieza lentamente y luego acelera,
+  hay un retraso de 0,2seg antes de que comience, y cuando la animacion termine vuelve al inicial en este caso*/
+  opacity: 0; /*comienza invisible*/
 }
+
 
 #ElectrOpina article {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: 0.3s, 0.3s; /*tiene una animacion que dura 0.3 seg con un efecto de transicion progresiva*/
 }
+
 
 #ElectrOpina article:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
-    z-index: 2;
+  transform: scale(1.05); /*cuando se pasa el mouse sobre el article se agranda para dar sensacion de interracion*/
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); /*se le agrega una sombra difusa, creando un efecto de elevación para que destaque*/
+  z-index: 2; /*aumenta la profundidad del elemento en la pantalla, evitando que se vea "tapado" por otros elementos cercanos*/
 }
+
 
 #ElectrOpina img {
-    width: 90px;
-    height: auto;
-}
-
-#ElectrOpina p {
-    font-size: 0,8em;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 500;
+  width: 90px;
+  height: auto;
 }
 
 
-    /*--------------------------
-   ESTILOS ESPECÍFICOS PARA LA PERFIL
-   -------------------------- */
+  /*--------------------------
+ ESTILOS ESPECÍFICOS PARA LA PERFIL
+ -------------------------- */
+
 
 #pagina-perfil {
-    background-image: url("../img/logo2.png"); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
+  background-image: url("../img/logo2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
+
 
 
 #publicaciones {
-    background-color: #0B7A75;
-    padding: 5px;
-    border: 3px solid #7B2D26;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 600px;
-    gap: 15px;
-    overflow-y: auto;
-    max-height: 500px;
-    overflow-y: auto;
+  background-color: #0B7A75;
+  padding: 5px;
+  border: 3px solid #7B2D26;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  gap: 15px;
+  overflow-y: auto;
+  max-height: 500px;
+  overflow-y: auto;
 }
+
+
+.publicacion {
+  border: 3px solid black;
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+.publicacion header {
+  display: flex;
+  flex-direction: column; /* cambia la direccion de fila a columna */
+  align-items: center; /*centra los elementos horizontalmente dentro del contenedor del header*/
+  gap: 10px; /*espacio de 10px entre el <h3> y la img.*/
+  margin-bottom: 10px; /*agrega espacio entre el header y la siguiente seccion dentro del articulo*/
+  text-align: center; /*alinea horizontalmente el texto que esta dentro del header*/
+}
+
+
+.comentarios {
+  border: 2px solid black; /* borde visible */
+  border-radius: 8px;      /* bordes redondeados */
+  padding: 10px;
+  margin-top: 15px;
+}
+
+
+.boton-like {
+  background-image: url("../img/me-gusta.png");
+  background-repeat: no-repeat; /*evita que la imagen se repita.*/
+  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
+  background-size: 20px 20px; /* tamaño del icono */
+  padding-left: 40px; /* deja espacio para el icono */
+  background-color: #968E85;
+}
+
+
+.boton-comentar {
+  background-image: url("../img/comentario.png");
+  background-repeat: no-repeat; /*evita que la imagen se repita.*/
+  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
+  background-size: 20px 20px; /* tamaño del icono */
+  padding-left: 40px; /* deja espacio para el icono */
+  background-color: #968E85;
+}
+
+
+.boton-compartir {
+  background-image: url("../img/enviar.png");
+  background-repeat: no-repeat; /*evita que la imagen se repita.*/
+  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
+  background-size: 20px 20px; /* tamaño del icono */
+  padding-left: 40px; /* deja espacio para el icono */
+  background-color: #968E85;
+}
+
 
 nav ul {
-    display: grid; /*te permite organizar elementos en columnas y filas.*/
-    grid-template-columns: repeat(4, auto); /*Crea 4 columnas automáticas (una para cada botón), todas del tamaño necesario para su contenido. */
-    gap: 5px; /*agrega espacio entre cada columna (entre botones)*/
-    justify-content: center;
-    list-style: none;
-    margin-bottom: 10px;
+  display: grid; /*te permite organizar elementos en columnas y filas.*/
+  grid-template-columns: repeat(4, auto); /*Crea 4 columnas automáticas (una para cada botón), todas del tamaño necesario para su contenido. */
+  gap: 5px; /*agrega espacio entre cada columna (entre botones)*/
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 10px;
 }
+
 
 nav ul li a {
-    display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
-    padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 6px; /*bordes redondeados*/
-    cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
-    text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
-    background-color: #7B2D26;
-    border:2px solid black; 
-    color: #F0F3F5;
-    transition: background-color 0.3s ease; /*agrega una animación al cambiar el color de fondo*/
-    text-align: center;
+  display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
+  padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 6px; /*bordes redondeados*/
+  cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
+  text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
+  background-color: #7B2D26;
+  border:2px solid black;
+  color: #F0F3F5;
+  transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
+  text-align: center;
 }
 nav ul li a:hover {
-    background-color: #5C1E1A; /* color más oscuro cuando pasas el mouse */
+  transform: scale(1.1); /*aumenta el tamaño*/
+  background-color: #5C1E1A; /* color más oscuro cuando pasas el mouse */
 }
-  
+ 
 /*modifity-user*/
 
-h1 {
-    font-size: 2em;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 850;
-    color: #D7C9AA;
-    text-align: center;
-    font-weight: 700;
-}
-
-h2 {
-    font-size: 1,5em;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 850;
-    color:#D7C9AA;
-    text-align: center;
-    font-weight: 700;
-}
 
 #title {
-    color: #D7C9AA;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
+  color: #D7C9AA;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+
 
 }
+
 
 .change {
-    color: #0B7A75;
+  color: #0B7A75;
 }
+
 
 .modify-user .form {
-    border: solid 1px black;
-    width: 450px;
-    background-color: #0B7A75;
-    padding: 5px;
-    border: 3px solid #7B2D26;
+  border: solid 1px black;
+  width: 450px;
+  background-color: #0B7A75;
+  padding: 5px;
+  border: 3px solid #7B2D26;
 }
 .modify-user .form .form-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
 }
 .modify-user{
-    background-image: url("../img/logo2.png"); /* Fondo */
-    font-family: 'Nunito', sans-serif; /*estilo de letra*/
-    font-weight: 700;
+  background-image: url("../img/logo2.png"); /* Fondo */
+  font-family: 'Nunito', sans-serif; /*estilo de letra*/
+  font-weight: 700;
 }
+
 
 .modify-user .form .form-article .button {
-    background-color: #0B7A75;
-    color: white;
-}
-.form_article {
-   display: flex;
-   flex-direction: column;
+  background-color: #0B7A75;
+  color: white;
 }
 
+
 /* compartir experiencia */
+
 
 .publicacion-html {
     background-image: url("../img/logo2.png"); /* Fondo */
@@ -333,6 +411,8 @@ h2 {
 }
 
 
+
+
 .form-experience {
     display: flex;
     flex-direction: column;
@@ -343,10 +423,12 @@ h2 {
     border: 3px solid #7B2D26;
 }
 
+
 .form-experience {
     background-color: #0B7A75;
     color: white;
 }
+
 
 .form-experience .electrodomestic {
     border: solid 1px black;
@@ -357,6 +439,8 @@ h2 {
     width: 50%;
     height: 90%;
 }
+
+
 
 /* --------------------------
    MEDIA QUERY para dispositivos de hasta 320px
