@@ -66,8 +66,11 @@ button {
 
 
 }
+.megusta_nomegusta{
 
-
+  font-size: 1.8rem; /* Aumenta el tamaño del ícono y texto */
+  padding: 1rem 1.5rem; /* Más espacio interno para agrandarlos visualmente */
+}
 /* --------------------------
  ESTILOS ESPECÍFICOS PARA INDEX.HTML
  -------------------------- */
