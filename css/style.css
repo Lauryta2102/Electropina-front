@@ -270,13 +270,7 @@ nav ul li a {
     background-color: #7B2D26;
     border:2px solid black; 
     color: #F0F3F5;
-<<<<<<<<< Temporary merge branch 1
-    transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
-=========
-    transition: background-color 0.3s ease; /*agrega una animación al cambiar el color de fondo*/
->>>>>>>>> Temporary merge branch 2
-    text-align: center;
-}
+
 nav ul li a:hover {
     background-color: #5C1E1A; /* color más oscuro cuando pasas el mouse */
 }
