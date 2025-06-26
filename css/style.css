@@ -47,15 +47,15 @@ button {
     background-color:  #D7C9AA;
     color:  #D7C9AA;
     background-image: url("../img/logo2.png"); /* Fondo */
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-=======
+=========
     
->>>>>>> gonzalo-dev
+>>>>>>>>> Temporary merge branch 2
 }
 
 #pagina-index form {
@@ -73,7 +73,7 @@ button {
     
 }
 input {
-    width: 90%;
+
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #000000;
@@ -97,7 +97,6 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 450px;
     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
     gap: 10px;
 }
@@ -127,8 +126,6 @@ form h2 {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
     font-family: 'Nunito', sans-serif; /*estilo de letra*/
 }
 
@@ -146,13 +143,13 @@ form h2 {
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
 @media screen and (min-width: 320px ){
     
 }
 
-=======
->>>>>>> gonzalo-dev
+=========
+>>>>>>>>> Temporary merge branch 2
 @keyframes entradaElectrOpina { /*animacion*/
     0% {
       opacity: 0;
@@ -273,11 +270,11 @@ nav ul li a {
     background-color: #7B2D26;
     border:2px solid black; 
     color: #F0F3F5;
-<<<<<<< HEAD
+<<<<<<<<< Temporary merge branch 1
     transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
-=======
+=========
     transition: background-color 0.3s ease; /*agrega una animación al cambiar el color de fondo*/
->>>>>>> gonzalo-dev
+>>>>>>>>> Temporary merge branch 2
     text-align: center;
 }
 nav ul li a:hover {
@@ -375,55 +372,3 @@ h2 {
     height: 90%;
 }
 
-@media (max-width: 320px) {
-  body {
-    padding: 10px;
-    height: auto;
-  }
-
-  #ElectrOpina {
-    width: 100%;
-    padding: 15px;
-    gap: 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-  }
-
-  #ElectrOpina .logo {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
-
-  #ElectrOpina .logo img {
-    margin-left: 0;
-    width: 80px;
-  }
-
-  #ElectrOpina .logo h1 {
-    font-size: 1.4em;
-    text-align: center;
-  }
-
-  #ElectrOpina article {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
-  }
-
-  #ElectrOpina img {
-    width: 60px;
-  }
-
-  #ElectrOpina p {
-    font-size: 0.9em;
-    padding: 0 10px;
-  }
-
-  button {
-    width: 100%;
-    font-size: 1rem;
-    padding: 10px;
-  }
-}
