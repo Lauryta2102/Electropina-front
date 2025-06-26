@@ -74,29 +74,19 @@ button {
 
 
 #pagina-index {
-<<<<<<< HEAD
+
     background-color:  #D7C9AA;
     color:  #D7C9AA;
     background-image: url("../img/logo2.png"); /* Fondo */
-<<<<<<< HEAD
-<<<<<<<<< Temporary merge branch 1
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-=========
-    
->>>>>>>>> Temporary merge branch 2
-=======
-    
->>>>>>> ec68337ab70e2ad5a78586ac1e785ddfe6da11c4
-=======
-  background-color:  #D7C9AA;
-  color: white;
-  background-image: url("../img/logo2.png"); /* Fondo */
- 
->>>>>>> dev-principal
+    background-color:  #D7C9AA;
+    color: white;
+    background-image: url("../img/logo2.png"); /* Fondo */
+
 }
 
 
@@ -189,16 +179,10 @@ input {
   margin-top: 30px;
 }
 
-<<<<<<< HEAD
-<<<<<<<<< Temporary merge branch 1
 @media screen and (min-width: 320px ){
     
 }
 
-=========
->>>>>>>>> Temporary merge branch 2
-=======
->>>>>>> ec68337ab70e2ad5a78586ac1e785ddfe6da11c4
 @keyframes entradaElectrOpina { /*animacion*/
   0% {
     opacity: 0; /*el elemento está totalmente invisible*/
@@ -299,57 +283,6 @@ input {
   overflow-y: auto;
 }
 
-<<<<<<< HEAD
-.publicacion {
-    border: 3px solid black;
-    border-radius: 10px;
-    width: 100%;
-}
-
-.publicacion header {
-    display: flex;
-    flex-direction: column; /* cambia la direccion de fila a columna */
-    align-items: center; /*centra los elementos horizontalmente dentro del contenedor del header*/
-    gap: 10px; /*espacio de 10px entre el <h3> y la img.*/
-    margin-bottom: 10px; /*agrega espacio entre el header y la siguiente seccion dentro del articulo*/
-    text-align: center; /*alinea horizontalmente el texto que esta dentro del header*/
-}
-
-.comentarios {
-    border: 2px solid black; /* borde visible */
-    border-radius: 8px;      /* bordes redondeados */
-    padding: 10px;
-    margin-top: 15px;
-} 
-
-.boton-like {
-    background-image: url("../img/me-gusta.png");
-    background-repeat: no-repeat; /*evita que la imagen se repita.*/
-    background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-    background-size: 20px 20px; /* tamaño del icono */
-    padding-left: 40px; /* deja espacio para el icono */
-    background-color: #968E85;
-}
-
-.boton-comentar {
-    background-image: url("../img/comentario.png");
-    background-repeat: no-repeat; /*evita que la imagen se repita.*/
-    background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-    background-size: 20px 20px; /* tamaño del icono */
-    padding-left: 40px; /* deja espacio para el icono */
-    background-color: #968E85;
-}
-
-.boton-compartir {
-    background-image: url("../img/enviar.png");
-    background-repeat: no-repeat; /*evita que la imagen se repita.*/
-    background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-    background-size: 20px 20px; /* tamaño del icono */
-    padding-left: 40px; /* deja espacio para el icono */
-    background-color: #968E85;
-}
-
-=======
 
 .publicacion {
   border: 3px solid black;
@@ -406,7 +339,6 @@ input {
 }
 
 
->>>>>>> dev-principal
 nav ul {
   display: grid; /*te permite organizar elementos en columnas y filas.*/
   grid-template-columns: repeat(4, auto); /*Crea 4 columnas automáticas (una para cada botón), todas del tamaño necesario para su contenido. */
@@ -418,7 +350,7 @@ nav ul {
 
 
 nav ul li a {
-<<<<<<< HEAD
+
     display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
     padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
     font-size: 18px;
@@ -429,27 +361,22 @@ nav ul li a {
     background-color: #7B2D26;
     border:2px solid black; 
     color: #F0F3F5;
-<<<<<<< HEAD
-
-=======
     transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
     text-align: center;
-=======
-  display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
-  padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 6px; /*bordes redondeados*/
-  cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
-  text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
-  background-color: #7B2D26;
-  border:2px solid black;
-  color: #F0F3F5;
-  transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
-  text-align: center;
->>>>>>> dev-principal
+
+    display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
+    padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px; /*bordes redondeados*/
+    cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
+    text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
+    background-color: #7B2D26;
+    border:2px solid black;
+    color: #F0F3F5;
+    transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
+    text-align: center;
 }
->>>>>>> ec68337ab70e2ad5a78586ac1e785ddfe6da11c4
 nav ul li a:hover {
   transform: scale(1.1); /*aumenta el tamaño*/
   background-color: #5C1E1A; /* color más oscuro cuando pasas el mouse */
@@ -539,14 +466,12 @@ nav ul li a:hover {
     height: 90%;
 }
 
-<<<<<<< HEAD
-=======
+
 
 
 /* --------------------------
    MEDIA QUERY para dispositivos de hasta 320px
    -------------------------- */
->>>>>>> dev-principal
 @media (max-width: 320px) {
   body {
     padding: 10px;
