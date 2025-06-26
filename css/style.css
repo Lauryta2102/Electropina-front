@@ -579,15 +579,9 @@ nav ul li a:hover {
   }
 }
 
-  #publicaciones {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-  }
 
   .publicacion {
     padding: 10px;
-    width: 100%;
     box-sizing: border-box;
   }
 
