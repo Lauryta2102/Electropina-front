@@ -11,16 +11,6 @@
         <title>Modificar Usuario</title>
     </head>
     <body class="modify-user">
-<<<<<<< HEAD
-=======
-        <nav>
-            <ul>
-                <li><a href="perfil.html">Inicio</a></li>
-                <li><a href="publicacion.html">Crear</a></li>
-                <li><a href="#">Cerrar Sesión</a></li>   
-            </ul>
-        </nav>
->>>>>>> 4de079fcb1caf867a9a5d3c80dd41f126bc528ae
         <form class="form" action="url" method="post">
             <article class="form-article">   
                 <h1 class="title" id="title">MODIFICAR USUARIO</h1>                   
@@ -28,13 +18,14 @@
                 <input type="email" id="new-email" name="new-email" value="" placeholder="NUEVO MAIL"/>
                 <input type="password" id="new-password" name="new-password" value="" placeholder="NUEVA PASSWORD"/>
             </article>
+            <img src="img/imagenperfil.png" alt="Foto de perfil actual"  class="logo"/>
+
             <article class="form_article">
-                <h2>CAMBIAR MI FOTO</h2>
                 <input type="file" id="change-profile-picture" name="change-profile-picture" accept="image/*">
             </article>
-            <article class="form-article">
-                <button type="submit" value="submit">CAMBIAR</button>
-            </article>
+            <a href="perfil.html">
+            <button type="button">CAMBIAR</button>
+            </a>
         </form>
 
     </body>
