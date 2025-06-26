@@ -12,6 +12,7 @@ h1 {
   font-weight: 700; /*controla lo negrita o el grosor de un texto*/
 }
 
+
 h2 {
   font-size: 1,5em;
   font-family: 'Nunito', sans-serif;
@@ -21,11 +22,13 @@ h2 {
   font-weight: 700;
 }
 
+
 p {
   font-size: 0,8em;
   font-family: 'Nunito', sans-serif;
   font-weight: 500;
 }
+
 
 /* --------------------------
  ESTILOS GENERALES (Para ambas páginas)
@@ -39,15 +42,18 @@ body {
   height: 100vh;
 }
 
+
 /* Logo */
 .logo {
   width: 150px;
   height: auto;
   display: block;
-  margin: 0 auto 15px; 
+  margin: 0 auto 15px;
   animation: entradaElectrOpina 1.1s ease-out forwards;
   transform-origin: center;
 }
+
+
 
 
 /* Estilos generales para botones */
@@ -58,18 +64,22 @@ button {
   border-radius: 6px;
   cursor: pointer;
 
+
 }
+
 
 /* --------------------------
  ESTILOS ESPECÍFICOS PARA INDEX.HTML
  -------------------------- */
 
+
 #pagina-index {
   background-color:  #D7C9AA;
   color: white;
   background-image: url("../img/logo2.png"); /* Fondo */
-  
+ 
 }
+
 
 #pagina-index form {
   background-color: #0B7A75;
@@ -83,7 +93,7 @@ button {
   box-shadow: 4px 4px 12px rgba(140, 67, 67, 0.2);
   gap: 15px;
   margin-top: 30px; /* Espacio superior */
-  
+ 
 }
 input {
   width: 90%;
@@ -98,8 +108,10 @@ input {
 #pagina-registro {
   background-color: #0B7A75;
   color: white;
-  background-image: url("../img/logo2.png"); /* Fondo */ 
+  background-image: url("../img/logo2.png"); /* Fondo */
 }
+
+
 
 
 #pagina-registro form {
@@ -115,6 +127,7 @@ input {
   gap: 10px;
 }
 
+
 #pagina-registro input {
   width: 100%;
   padding: 10px;
@@ -122,9 +135,12 @@ input {
   border-radius: 5px;
 }
 
+
 /* --------------------------
  ESTILOS ESPECÍFICOS PARA LA PRESENTACION
  -------------------------- */
+
+
 
 
 #presentation {
@@ -138,6 +154,7 @@ input {
   width: 100%;
   font-family: 'Nunito', sans-serif; /*estilo de letra*/
 }
+
 
 #ElectrOpina {
   background-color: #0B7A75;
@@ -153,10 +170,11 @@ input {
   margin-top: 30px;
 }
 
+
 @keyframes entradaElectrOpina { /*animacion*/
   0% {
     opacity: 0; /*el elemento está totalmente invisible*/
-    transform: scale(0.5) rotate(-10deg); /*se reduce en tamaño y rota a la izquierda*/ 
+    transform: scale(0.5) rotate(-10deg); /*se reduce en tamaño y rota a la izquierda*/
   }
   60% {
     opacity: 1; /*se vuelve visible*/
@@ -167,11 +185,13 @@ input {
   }
 }
 
+
 #ElectrOpina .logo {
   display: flex;
   align-items: center;
   gap: 20px;
 }
+
 
 #ElectrOpina .logo img {
   width: 108px;
@@ -179,6 +199,7 @@ input {
   margin-left: -65px; /* Mueve la imagen 65px más a la izquierda */
   animation: entradaElectrOpina 1.1s ease-out forwards;
 }
+
 
 @keyframes textoSuave { /*animacion para el h1*/
   0% {
@@ -191,11 +212,13 @@ input {
   }
 }
 
+
 #ElectrOpina .logo h1 {
-  animation: textoSuave 1s ease-in 0.2s forwards; /*la animacion dura 1 seg, empieza lentamente y luego acelera, 
+  animation: textoSuave 1s ease-in 0.2s forwards; /*la animacion dura 1 seg, empieza lentamente y luego acelera,
   hay un retraso de 0,2seg antes de que comience, y cuando la animacion termine vuelve al inicial en este caso*/
   opacity: 0; /*comienza invisible*/
 }
+
 
 #ElectrOpina article {
   display: flex;
@@ -204,28 +227,34 @@ input {
   transition: 0.3s, 0.3s; /*tiene una animacion que dura 0.3 seg con un efecto de transicion progresiva*/
 }
 
+
 #ElectrOpina article:hover {
   transform: scale(1.05); /*cuando se pasa el mouse sobre el article se agranda para dar sensacion de interracion*/
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25); /*se le agrega una sombra difusa, creando un efecto de elevación para que destaque*/
   z-index: 2; /*aumenta la profundidad del elemento en la pantalla, evitando que se vea "tapado" por otros elementos cercanos*/
 }
 
+
 #ElectrOpina img {
   width: 90px;
   height: auto;
 }
 
+
   /*--------------------------
  ESTILOS ESPECÍFICOS PARA LA PERFIL
  -------------------------- */
 
+
 #pagina-perfil {
-  background-image: url("../img/logo2.png"); 
+  background-image: url("../img/logo2.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
 }
+
+
 
 
 #publicaciones {
@@ -242,11 +271,13 @@ input {
   overflow-y: auto;
 }
 
+
 .publicacion {
   border: 3px solid black;
   border-radius: 10px;
   width: 100%;
 }
+
 
 .publicacion header {
   display: flex;
@@ -257,12 +288,14 @@ input {
   text-align: center; /*alinea horizontalmente el texto que esta dentro del header*/
 }
 
+
 .comentarios {
   border: 2px solid black; /* borde visible */
   border-radius: 8px;      /* bordes redondeados */
   padding: 10px;
   margin-top: 15px;
-} 
+}
+
 
 .boton-like {
   background-image: url("../img/me-gusta.png");
@@ -273,6 +306,7 @@ input {
   background-color: #968E85;
 }
 
+
 .boton-comentar {
   background-image: url("../img/comentario.png");
   background-repeat: no-repeat; /*evita que la imagen se repita.*/
@@ -281,6 +315,7 @@ input {
   padding-left: 40px; /* deja espacio para el icono */
   background-color: #968E85;
 }
+
 
 .boton-compartir {
   background-image: url("../img/enviar.png");
@@ -291,6 +326,7 @@ input {
   background-color: #968E85;
 }
 
+
 nav ul {
   display: grid; /*te permite organizar elementos en columnas y filas.*/
   grid-template-columns: repeat(4, auto); /*Crea 4 columnas automáticas (una para cada botón), todas del tamaño necesario para su contenido. */
@@ -299,6 +335,7 @@ nav ul {
   list-style: none;
   margin-bottom: 10px;
 }
+
 
 nav ul li a {
   display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
@@ -309,7 +346,7 @@ nav ul li a {
   cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
   text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
   background-color: #7B2D26;
-  border:2px solid black; 
+  border:2px solid black;
   color: #F0F3F5;
   transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
   text-align: center;
@@ -318,8 +355,9 @@ nav ul li a:hover {
   transform: scale(1.1); /*aumenta el tamaño*/
   background-color: #5C1E1A; /* color más oscuro cuando pasas el mouse */
 }
-  
+ 
 /*modifity-user*/
+
 
 #title {
   color: #D7C9AA;
@@ -327,11 +365,14 @@ nav ul li a:hover {
   font-size: 30px;
   margin-bottom: 20px;
 
+
 }
+
 
 .change {
   color: #0B7A75;
 }
+
 
 .modify-user .form {
   border: solid 1px black;
@@ -353,18 +394,23 @@ nav ul li a:hover {
   font-weight: 700;
 }
 
+
 .modify-user .form .form-article .button {
   background-color: #0B7A75;
   color: white;
 }
 
+
 /* compartir experiencia */
+
 
 .publicacion-html {
     background-image: url("../img/logo2.png"); /* Fondo */
     font-family: 'Nunito', sans-serif; /*estilo de letra*/
     font-weight: 700;
 }
+
+
 
 
 .form-experience {
@@ -377,10 +423,12 @@ nav ul li a:hover {
     border: 3px solid #7B2D26;
 }
 
+
 .form-experience {
     background-color: #0B7A75;
     color: white;
 }
+
 
 .form-experience .electrodomestic {
     border: solid 1px black;
@@ -392,6 +440,11 @@ nav ul li a:hover {
     height: 90%;
 }
 
+
+
+/* --------------------------
+   MEDIA QUERY para dispositivos de hasta 320px
+   -------------------------- */
 @media (max-width: 320px) {
   body {
     padding: 10px;
