@@ -311,37 +311,6 @@ input {
   margin-top: 15px;
 }
 
-
-.boton-like {
-  background-image: url("../img/me-gusta.png");
-  background-repeat: no-repeat; /*evita que la imagen se repita.*/
-  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-  background-size: 20px 20px; /* tamaño del icono */
-  padding-left: 40px; /* deja espacio para el icono */
-  background-color: #968E85;
-}
-
-
-.boton-comentar {
-  background-image: url("../img/comentario.png");
-  background-repeat: no-repeat; /*evita que la imagen se repita.*/
-  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-  background-size: 20px 20px; /* tamaño del icono */
-  padding-left: 40px; /* deja espacio para el icono */
-  background-color: #968E85;
-}
-
-
-.boton-compartir {
-  background-image: url("../img/enviar.png");
-  background-repeat: no-repeat; /*evita que la imagen se repita.*/
-  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-  background-size: 20px 20px; /* tamaño del icono */
-  padding-left: 40px; /* deja espacio para el icono */
-  background-color: #968E85;
-}
-
-
 nav ul {
   display: grid; /*te permite organizar elementos en columnas y filas.*/
   grid-template-columns: repeat(4, auto); /*Crea 4 columnas automáticas (una para cada botón), todas del tamaño necesario para su contenido. */
@@ -385,6 +354,64 @@ nav ul li a:hover {
   background-color: #5C1E1A; /* color más oscuro cuando pasas el mouse */
 }
  
+/* --------------------------
+ ESTILOS ESPECÍFICOS PARA My-info 
+ -------------------------- */
+ 
+#my-info {
+  background-color:  #D7C9AA;
+  color:  #D7C9AA;
+  background-image: url("../img/logo2.png"); /* Fondo */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Nunito', sans-serif; /*estilo de letra*/
+}
+
+#informacion {
+  background-color: #0B7A75;
+  padding: 25px;
+  border: 3px solid #7B2D26;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.datos p {
+  display: flex;
+  flex-direction: column; /*le dice al contenedor flexible que coloque los elementos uno debajo del otro (en forma de columna)*/
+  font-size: 1.1em; /*tamaño de letra*/
+  margin-bottom: 16px; /*define el espacio o margen que se aplica en la parte inferior de un elemento, 
+  separándolo de otros elementos que puedan estar debajo*/
+  margin-top: 15px; /*define espacio en la parte de arriba del elemento*/
+}
+
+.imagen-perfil {
+  display: flex;
+  justify-content: center; /*centra horizontalmente el contenido*/
+  align-items: center; /*centra verticalmente el contenido*/
+  margin-bottom: 15px; /*espacio de 15px debajo del contenedor*/
+}
+
+.imagen-perfil img {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /*animación suave cuando se modifica el transform o el box-shadow; 
+  dura 0.2 segundos y la transición va de forma progresiva(ease-in-out)*/
+  cursor: pointer;
+  max-width: 40%; /*ancho máximo de la imagen al 40% del contenedor padre*/
+  height: auto;
+}
+
+.imagen-perfil img:hover {
+  transform: scale(1.03); /*agranda el tamaño del elemento*/
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /*añade una sombra proyectada alrededor de la imagen cuando hace
+   hover, simulando elevacion o profundidad*/
+}
+
 /*modifity-user*/
 
 
