@@ -77,10 +77,19 @@ button {
 
 
 #pagina-index {
-  background-color:  #D7C9AA;
-  color: white;
-  background-image: url("../img/logo2.png"); /* Fondo */
- 
+
+    background-color:  #D7C9AA;
+    color:  #D7C9AA;
+    background-image: url("../img/logo2.png"); /* Fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-color:  #D7C9AA;
+    color: white;
+    background-image: url("../img/logo2.png"); /* Fondo */
+
 }
 
 
@@ -173,6 +182,9 @@ input {
   margin-top: 30px;
 }
 
+@media screen and (min-width: 320px ){
+    
+}
 
 @keyframes entradaElectrOpina { /*animacion*/
   0% {
@@ -341,18 +353,32 @@ nav ul {
 
 
 nav ul li a {
-  display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
-  padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 6px; /*bordes redondeados*/
-  cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
-  text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
-  background-color: #7B2D26;
-  border:2px solid black;
-  color: #F0F3F5;
-  transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
-  text-align: center;
+
+    display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
+    padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px; /*bordes redondeados*/
+    cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
+    text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
+    background-color: #7B2D26;
+    border:2px solid black; 
+    color: #F0F3F5;
+    transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
+    text-align: center;
+
+    display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
+    padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 6px; /*bordes redondeados*/
+    cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
+    text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
+    background-color: #7B2D26;
+    border:2px solid black;
+    color: #F0F3F5;
+    transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
+    text-align: center;
 }
 nav ul li a:hover {
   transform: scale(1.1); /*aumenta el tamaño*/
@@ -442,6 +468,7 @@ nav ul li a:hover {
     width: 50%;
     height: 90%;
 }
+
 
 
 
@@ -554,7 +581,7 @@ nav ul li a:hover {
 
   #publicaciones {
     width: 100%;
-    padding: 10px;
+    padding: 50px;
     box-sizing: border-box;
   }
 
