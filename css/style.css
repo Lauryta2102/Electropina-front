@@ -299,37 +299,6 @@ input {
   margin-top: 15px;
 }
 
-
-.boton-like {
-  background-image: url("../img/me-gusta.png");
-  background-repeat: no-repeat; /*evita que la imagen se repita.*/
-  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-  background-size: 20px 20px; /* tamaño del icono */
-  padding-left: 40px; /* deja espacio para el icono */
-  background-color: #968E85;
-}
-
-
-.boton-comentar {
-  background-image: url("../img/comentario.png");
-  background-repeat: no-repeat; /*evita que la imagen se repita.*/
-  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-  background-size: 20px 20px; /* tamaño del icono */
-  padding-left: 40px; /* deja espacio para el icono */
-  background-color: #968E85;
-}
-
-
-.boton-compartir {
-  background-image: url("../img/enviar.png");
-  background-repeat: no-repeat; /*evita que la imagen se repita.*/
-  background-position: 10px center; /*icono a la izquierda centrado verticalmente */
-  background-size: 20px 20px; /* tamaño del icono */
-  padding-left: 40px; /* deja espacio para el icono */
-  background-color: #968E85;
-}
-
-
 nav ul {
   display: grid; /*te permite organizar elementos en columnas y filas.*/
   grid-template-columns: repeat(4, auto); /*Crea 4 columnas automáticas (una para cada botón), todas del tamaño necesario para su contenido. */
