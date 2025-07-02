@@ -299,7 +299,7 @@ input {
 nav ul {
   display: grid; /*te permite organizar elementos en columnas y filas.*/
   grid-template-columns: repeat(4, auto); /*Crea 4 columnas automáticas (una para cada botón), todas del tamaño necesario para su contenido. */
-  gap: 5px; /*agrega espacio entre cada columna (entre botones)*/
+  gap: 10px; /*agrega espacio entre cada columna (entre botones)*/
   justify-content: center;
   list-style: none;
   margin-bottom: 10px;
