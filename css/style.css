@@ -76,7 +76,6 @@ button {
 
 
 #pagina-index {
-<<<<<<< HEAD
 
     background-color:  #D7C9AA;
     color:  #D7C9AA;
@@ -90,12 +89,6 @@ button {
     color: white;
     background-image: url("../img/logo2.png"); /* Fondo */
 
-=======
-  background-color:  #D7C9AA;
-  color: white;
-  background-image: url("../img/logo2.png"); /* Fondo */
- 
->>>>>>> 8bbc2dde56bf4f0fc21c8fbf8e03da3b140eb8a1
 }
 
 
@@ -188,12 +181,9 @@ input {
   margin-top: 30px;
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 320px ){
     
 }
-=======
->>>>>>> 8bbc2dde56bf4f0fc21c8fbf8e03da3b140eb8a1
 
 @keyframes entradaElectrOpina { /*animacion*/
   0% {
@@ -331,7 +321,6 @@ nav ul {
 
 
 nav ul li a {
-<<<<<<< HEAD
 
     display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
     padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
@@ -358,20 +347,6 @@ nav ul li a {
     color: #F0F3F5;
     transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
     text-align: center;
-=======
-  display: inline-block; /* el enlace <a> se comporte como un bloque dentro de su espacio*/
-  padding: 13px 25px; /*espacio interno del boton 13px arriba/abajo y 25px a los costados */
-  font-size: 18px;
-  font-weight: bold;
-  border-radius: 6px; /*bordes redondeados*/
-  cursor: pointer; /*cambia el cursor al ícono de mano cuando pasas el mouse*/
-  text-decoration: none; /*elimina el subrayado de los enlaces <a>*/
-  background-color: #7B2D26;
-  border:2px solid black;
-  color: #F0F3F5;
-  transition: background-color 0.3s ease; /*agrega una transicion al cambiar el color de fondo*/
-  text-align: center;
->>>>>>> 8bbc2dde56bf4f0fc21c8fbf8e03da3b140eb8a1
 }
 nav ul li a:hover {
   transform: scale(1.1); /*aumenta el tamaño*/
@@ -508,10 +483,7 @@ nav ul li a:hover {
     height: 90%;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 8bbc2dde56bf4f0fc21c8fbf8e03da3b140eb8a1
 
 
 /* --------------------------
@@ -623,7 +595,7 @@ nav ul li a:hover {
 
   #publicaciones {
     width: 100%;
-    padding: 10px;
+    padding: 50px;
     box-sizing: border-box;
   }
 
