@@ -95,7 +95,6 @@ button {
 #pagina-index form {
   background-color: #0B7A75;
   padding: 25px;
-  border: 3px solid #7B2D26;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -104,6 +103,7 @@ button {
   box-shadow: 4px 4px 12px rgba(140, 67, 67, 0.2);
   gap: 15px;
   margin-top: 30px; /* Espacio superior */
+  animation: rotation-color 2.2s linear infinite;
  
 }
 input {
@@ -128,7 +128,6 @@ input {
 #pagina-registro form {
   background-color: #0B7A75;
   padding: 25px;
-  border: 3px solid  #7B2D26;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -136,6 +135,7 @@ input {
   width: 450px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
   gap: 10px;
+  animation: rotation-color 2.2s linear infinite;
 }
 
 
@@ -164,13 +164,13 @@ input {
   height: 100vh;
   width: 100%;
   font-family: 'Nunito', sans-serif; /*estilo de letra*/
+  
 }
 
 
 #ElectrOpina {
   background-color: #0B7A75;
   padding: 25px;
-  border: 3px solid #7B2D26;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -179,6 +179,7 @@ input {
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
   gap: 15px;
   margin-top: 30px;
+  animation: rotation-color 2.2s linear infinite;
 }
 
 @media screen and (min-width: 320px ){
@@ -196,6 +197,29 @@ input {
   }
   100% {
     transform: scale(1) rotate(0deg); /*vuelve a su tamaño normal y no rota vuelve a su posicion original*/
+  }
+}
+
+@keyframes rotation-color {
+  0% {
+    box-shadow: 10px 0 15px #19535F,
+                -5px 0 10px #0B7A75;
+  }
+  25% {
+    box-shadow: 0 10px 15px rgba(123, 45, 38, 0.9),
+                0 -5px 10px rgba(215, 201, 170, 0.7);
+  }
+  50% {
+    box-shadow: -10px 0 15px rgba(11, 122, 117, 0.6),
+                5px 0 10px rgba(240, 243, 245, 0.3);
+  }
+  75% {
+    box-shadow: 0 -10px 15px rgba(123, 45, 38, 0.8),
+                0 5px 10px rgba(215, 201, 170, 0.2);
+  }
+  100% {
+    box-shadow: 10px 0 15px rgba(25, 83, 95, 0.6),
+                -5px 0 10px rgba(240, 243, 245, 0.4);
   }
 }
 
@@ -283,6 +307,7 @@ input {
   overflow-y: auto;
   max-height: 500px;
   overflow-y: auto;
+  animation: rotation-color 2.2s linear infinite;
 }
 
 
@@ -371,13 +396,13 @@ nav ul li a:hover {
 #informacion {
   background-color: #0B7A75;
   padding: 0px;
-  border: 3px solid #7B2D26;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 350px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2); 
+  animation: rotation-color 2.2s linear infinite;
 }
 
 .datos p {
@@ -410,8 +435,6 @@ nav ul li a:hover {
    hover, simulando elevacion o profundidad*/
 }
 
-/*modifity-user*/
-
 
 #title {
   color: #D7C9AA;
@@ -432,12 +455,13 @@ nav ul li a:hover {
   border: solid 1px black;
   background-color: #0B7A75;
   padding: 5px;
-  border: 3px solid #7B2D26;
+  animation: rotation-color 2.2s linear infinite;
 }
 .modify-user .form .form-article {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 .modify-user{
   background-image: url("../img/logo2.png"); /* Fondo */
@@ -463,7 +487,7 @@ nav ul li a:hover {
     gap: 20px;
     width: 100%;
     padding: 5px;
-    border: 3px solid #7B2D26;
+    animation: rotation-color 2.2s linear infinite;
 }
 
 
