@@ -185,9 +185,6 @@ input {
   animation: rotation-color 2.2s linear infinite;
 }
 
-@media screen and (min-width: 320px ){
-    
-}
 
 @keyframes entradaElectrOpina { /*animacion*/
   0% {
