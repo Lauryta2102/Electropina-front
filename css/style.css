@@ -63,8 +63,11 @@ button {
   font-weight: bold;
   border-radius: 6px;
   cursor: pointer;
-
-
+  background-color: #0B7A75;
+  color: #fff;
+  border: none;
+  transition: all 0.3s ease;
+  animation: button-entry 0.7s ease-out;
 }
 .megusta_nomegusta{
   font-size: 1.8rem; /* Aumenta el tamaño del ícono y texto */
@@ -95,7 +98,6 @@ button {
 #pagina-index form {
   background-color: #0B7A75;
   padding: 25px;
-  border: 3px solid #7B2D26;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -104,6 +106,7 @@ button {
   box-shadow: 4px 4px 12px rgba(140, 67, 67, 0.2);
   gap: 15px;
   margin-top: 30px; /* Espacio superior */
+  animation: rotation-color 2.2s linear infinite;
  
 }
 input {
@@ -128,7 +131,6 @@ input {
 #pagina-registro form {
   background-color: #0B7A75;
   padding: 25px;
-  border: 3px solid  #7B2D26;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -136,6 +138,7 @@ input {
   width: 450px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
   gap: 10px;
+  animation: rotation-color 2.2s linear infinite;
 }
 
 
@@ -164,13 +167,13 @@ input {
   height: 100vh;
   width: 100%;
   font-family: 'Nunito', sans-serif; /*estilo de letra*/
+  
 }
 
 
 #ElectrOpina {
   background-color: #0B7A75;
   padding: 25px;
-  border: 3px solid #7B2D26;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -179,6 +182,7 @@ input {
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
   gap: 15px;
   margin-top: 30px;
+  animation: rotation-color 2.2s linear infinite;
 }
 
 @media screen and (min-width: 320px ){
@@ -199,6 +203,56 @@ input {
   }
 }
 
+@keyframes rotation-color {
+  0% {
+    box-shadow: 10px 0 15px #19535F,
+                -5px 0 10px #0B7A75;
+  }
+  25% {
+    box-shadow: 0 10px 15px rgba(123, 45, 38, 0.9),
+                0 -5px 10px rgba(215, 201, 170, 0.7);
+  }
+  50% {
+    box-shadow: -10px 0 15px rgba(11, 122, 117, 0.6),
+                5px 0 10px rgba(240, 243, 245, 0.3);
+  }
+  75% {
+    box-shadow: 0 -10px 15px rgba(123, 45, 38, 0.8),
+                0 5px 10px rgba(215, 201, 170, 0.2);
+  }
+  100% {
+    box-shadow: 10px 0 15px rgba(25, 83, 95, 0.6),
+                -5px 0 10px rgba(240, 243, 245, 0.4);
+  }
+}
+@keyframes button-entry {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+    box-shadow: none;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    box-shadow: 0 4px 10px rgba(25, 83, 95, 0.3);
+  }
+}
+
+/* Animación al hacer hover */
+button:hover {
+  animation: pulse-shadow 1.2s infinite;
+  background-color: #146575;
+}
+
+/* Efecto visual cíclico en hover */
+@keyframes pulse-shadow {
+  0%, 100% {
+    box-shadow: 0 0 10px #0B7A75, 0 0 20px #059bf8;
+  }
+  50% {
+    box-shadow: 0 0 15px #7B2D26, 0 0 25px #0199ff;
+  }
+}
 
 #ElectrOpina .logo {
   display: flex;
@@ -283,6 +337,7 @@ input {
   overflow-y: auto;
   max-height: 500px;
   overflow-y: auto;
+  animation: rotation-color 2.2s linear infinite;
 }
 
 
@@ -371,13 +426,17 @@ nav ul li a:hover {
 #informacion {
   background-color: #0B7A75;
   padding: 0px;
+<<<<<<< HEAD
   border: 3px solid #7B2D26;
+=======
+>>>>>>> main
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 350px;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2); 
+  animation: rotation-color 2.2s linear infinite;
 }
 
 .datos p {
@@ -410,8 +469,6 @@ nav ul li a:hover {
    hover, simulando elevacion o profundidad*/
 }
 
-/*modifity-user*/
-
 
 #title {
   color: #D7C9AA;
@@ -432,12 +489,16 @@ nav ul li a:hover {
   border: solid 1px black;
   background-color: #0B7A75;
   padding: 5px;
-  border: 3px solid #7B2D26;
+  animation: rotation-color 2.2s linear infinite;
 }
 .modify-user .form .form-article {
   display: flex;
   flex-direction: column;
   align-items: center;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> main
 }
 .modify-user{
   background-image: url("../img/logo2.png"); /* Fondo */
@@ -463,7 +524,7 @@ nav ul li a:hover {
     gap: 20px;
     width: 100%;
     padding: 5px;
-    border: 3px solid #7B2D26;
+    animation: rotation-color 2.2s linear infinite;
 }
 
 
@@ -708,14 +769,7 @@ nav ul li a:hover {
     font-size: 0.95rem;
   }
 
-  .form-experience input,
-  .form-experience select,
-  .form-experience textarea {
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 0.9rem;
-    box-sizing: border-box;
-  }
+
 
   .form-experience button {
     width: 100%;
@@ -808,6 +862,7 @@ nav ul li a:hover {
 
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 360px)  {
 
   #my-info {
@@ -820,4 +875,19 @@ nav ul li a:hover {
     }
  
 }
+=======
+@media screen and (max-width: 360px) {
+  #my-info {
+    width: 200px;
+    margin: 0 auto; /* centra horizontalmente */
+    padding: 0;
+    padding-top: 80px;
+    font-size: 14px;
+    max-height: 100vh; /* corregido: "flex" no es un valor válido */
+    background-position: center; /* si aplica a una imagen de fondo */
+    display: block; /* asegurás que el margen funcione */
+  }
+}
+
+>>>>>>> main
  
